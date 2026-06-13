@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARSTAX ($ARX) | Meme Coin</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Orbitron',sans-serif;
+    background:#070b16;
+    color:white;
+    overflow-x:hidden;
+}
+
+body::before{
+    content:'';
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:
+    radial-gradient(circle at 20% 30%,rgba(0,255,255,.15),transparent 30%),
+    radial-gradient(circle at 80% 70%,rgba(128,0,255,.18),transparent 35%);
+    z-index:-1;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    backdrop-filter:blur(10px);
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:900;
+    color:#00ffff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero h1{
+    font-size:70px;
+    color:#00ffff;
+    text-shadow:0 0 20px #00ffff;
+}
+
+.hero h2{
+    margin-top:15px;
+    font-size:24px;
+    color:#ccc;
+}
+
+.hero p{
+    max-width:700px;
+    margin-top:20px;
+    line-height:1.8;
+    color:#b8b8b8;
+}
+
+.buttons{
+    margin-top:35px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 30px;
+    margin:10px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.buy{
+    background:#00ffff;
+    color:black;
+}
+
+.community{
+    border:2px solid #00ffff;
+    color:#00ffff;
+}
+
+.section{
+    padding:80px 10%;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+    color:#00ffff;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:rgba(255,255,255,.05);
+    padding:25px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.card h3{
+    color:#00ffff;
+    margin-bottom:15px;
+}
+
+.tokenomics{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.token-box{
+    background:#111827;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.news{
+    background:#111827;
+    padding:30px;
+    border-radius:20px;
+}
+
+.news-item{
+    margin-bottom:15px;
+    border-bottom:1px solid #333;
+    padding-bottom:15px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#888;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">ARSTAX</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tokenomics">Tokenomics</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#news">News</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <h1>ARSTAX ($ARX)</h1>
+
+    <h2>THE MEME COIN FOR SURVIVORS</h2>
+
+    <p>
+        While markets panic, ARSTAX makes memes.
+        Inspired by global trends, internet culture,
+        and community power.
+    </p>
+
+    <div class="buttons">
+        <a href="#" class="btn buy">BUY ARX</a>
+        <a href="#" class="btn community">JOIN COMMUNITY</a>
+    </div>
+
+</section>
+
+<section id="about" class="section">
+
+    <h2 class="title">About ARSTAX</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Community First</h3>
+            <p>
+                Built around community engagement and meme culture.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Meme Powered</h3>
+            <p>
+                Internet energy is stronger than market fear.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Global Narrative</h3>
+            <p>
+                Following global trends while staying focused on fun.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="tokenomics" class="section">
+
+    <h2 class="title">Tokenomics</h2>
+
+    <div class="tokenomics">
+
+        <div class="token-box">
+            <h3>Supply</h3>
+            <p>1,000,000,000 ARX</p>
+        </div>
+
+        <div class="token-box">
+            <h3>Liquidity</h3>
+            <p>50%</p>
+        </div>
+
+        <div class="token-box">
+            <h3>Community</h3>
+            <p>20%</p>
+        </div>
+
+        <div class="token-box">
+            <h3>Burn</h3>
+            <p>20%</p>
+        </div>
+
+        <div class="token-box">
+            <h3>Marketing</h3>
+            <p>10%</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="roadmap" class="section">
+
+    <h2 class="title">Roadmap</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Phase 1</h3>
+            <p>
+                Website Launch<br>
+                Community Setup<br>
+                Meme Campaign
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Phase 2</h3>
+            <p>
+                1,000 Holders<br>
+                Viral Marketing<br>
+                Partnerships
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Phase 3</h3>
+            <p>
+                Exchange Listings<br>
+                10,000 Holders<br>
+                Global Exposure
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Phase 4</h3>
+            <p>
+                Community Expansion<br>
+                Ecosystem Growth<br>
+                To The Moon 🚀
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="news" class="section">
+
+    <h2 class="title">Trending Narrative</h2>
+
+    <div class="news">
+
+        <div class="news-item">
+            🌎 Global markets react to geopolitical uncertainty.
+        </div>
+
+        <div class="news-item">
+            📈 Energy markets remain volatile amid international tensions.
+        </div>
+
+        <div class="news-item">
+            🚀 ARSTAX community continues to grow through memes and engagement.
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        ARSTAX ($ARX) is a meme token project intended for entertainment and community engagement.
+        Cryptocurrency investments are speculative and involve risk.
+        Always do your own research.
+    </p>
+
+</footer>
+
+</body>
+</html>
